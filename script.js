@@ -3,7 +3,7 @@ $(document).ready(function() {
   const apiRoot = 'https://kodilla-tasks-pk.herokuapp.com/v1/tasks';
   const trelloApiRoot = 'https://kodilla-tasks-pk.herokuapp.com/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-  const tasksContainer = $('[data-tasks-container]');
+  const $tasksContainer = $('[data-tasks-container]');
 
   var availableBoards = {};
   var availableTasks = {};
